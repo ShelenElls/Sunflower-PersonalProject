@@ -1,0 +1,16 @@
+html,
+header nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(12, 2fr);
+    justify-items: center;
+  }
+  
+  span {
+    background-color: black(255,255,255,.5);
+  }
+
+  h2 {
+    background-color: #567895;
+    color: white;
+  }
