@@ -45,14 +45,14 @@ a:visited {
 
 /* footer {
 } */
-.flower {
+/* .flower {
   width: 10%;
   height: 50%;
   float: right;
   background-image: url("../images/smolboi1.png");
   background-size: contain;
   /* z-index:1; */
-}
+/* } */
 
 .narrow-form {
   border: 5px solid lavender;
