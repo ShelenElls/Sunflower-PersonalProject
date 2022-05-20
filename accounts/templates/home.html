@@ -2,13 +2,16 @@
 {% load static %}
 
 {% block content %}
-<h2>this is a working landing page
-    hello 
-    <p>
-        hello
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello bye loser</p>
-    </p>
-</h2>
+<table>
+    <thead>
+    </thead>
+    <tbody>
+        <li class="narrow-form">
+            <a href="{% url 'signup' %}">Sign Up</a>
+        </li>
+        <li class="narrow-form">
+            <a href="{% url 'login' %}">Login</a>
+        </li>
+    </tbody>
+</table>
 {% endblock content %}

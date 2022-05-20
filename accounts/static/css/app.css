@@ -5,11 +5,15 @@ header nav ul {
     grid-template-columns: repeat(12, 2fr);
     justify-items: center;
   }
-  
+  p {
+    color: white;
+  }
   span {
     background-color: black(255,255,255,.5);
   }
-
+  h3 {
+    color: white;
+  }
   h2 {
     color: white;
   }
@@ -28,6 +32,7 @@ a:visited {
   background-image: url("../images/smolboi1.png");
   background-position: 850px 200px;
   background-repeat: repeat-y;
+  background-attachment: scroll;
   width: 100%;
   /* background-size: contain; */
   /* background-image: url("../images/smolflower.jpg"); 
@@ -47,4 +52,31 @@ a:visited {
   background-image: url("../images/smolboi1.png");
   background-size: contain;
   /* z-index:1; */
+}
+
+.narrow-form {
+  border: 5px solid lavender;
+  max-width: 245px;
+  margin: auto;
+  padding: 2em;
+  justify-content: center;
+  color: white;
+}
+
+table {
+  border: 1px solid white;
+  border-collapse: collapse;
+  max-width: 800px;
+  min-width: 400px;
+  margin: auto;
+  justify-content: center;
+}
+
+th,
+td {
+  border: 1px solid lightblue;
+  padding: .5em;
+}
+.nav-item {
+  margin: 1em;
 }
