@@ -52,3 +52,8 @@ the react pages should have a pop up of text onHover that shows/explains what ea
 EOD:
 some model adjustments made/ some views adjustments made/ non-complete json/ docker files/ urls/ etc 
 
+6/29
+
+dockerfile image is built- 
+
+no yml file is made yet 

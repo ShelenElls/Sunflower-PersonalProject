@@ -1,0 +1,26 @@
+# version: "3.7"
+# services:
+#   sunflower:
+#     build: 
+#       context: ./sunflower
+#       dockerfile: ./Dockerfile.dev
+#     ports:
+#       - "8000:8000"
+#     volumes:
+#       - ./sunflower:/app
+#     depends_on:
+#       - rabbitmq
+#   rabbitmq:
+#     image: rabbitmq:3
+#   react:
+#     image: node:latest
+#     command: npm start
+#     working_dir: /app
+#     volumes:
+#       - ./ghi/app:/app
+#     environment:
+#       - HOST=0.0.0.0
+#       - PORT=3001
+#       - NODE_ENV=development
+#     ports:
+#       - "3001:3001"

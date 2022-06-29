@@ -24,9 +24,11 @@ class ObjectiveEncoder(ModelEncoder):
         "description",
         "due_date",
         "status",
+        "monthly_income", 
     ]
     encoders = {
         "status": StatusEncoder(),
+
     }
 
 

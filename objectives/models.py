@@ -20,7 +20,7 @@ class Status(models.Model):
 class Objective(models.Model):
     name = models.CharField(max_length=100)
     description = models.TextField()
-    due_date = models.CharField(null=True, blank=True)
+    due_date = models.DateField(null=True, blank=True)
     status = models.ForeignKey(
         Status,
         related_name="+",
