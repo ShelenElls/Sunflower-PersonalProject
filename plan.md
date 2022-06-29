@@ -47,3 +47,8 @@ goals should / can relate to the accounts that are set up on the financial side;
 or show a total of all goals listed 
 
 the react pages should have a pop up of text onHover that shows/explains what each thing is- it should show you if  you hover over the work fluctuating - that means anything that needs to be cacluated on a as added basis- could be gig jobs, independent contractors, self employeed, buisness owners etc. 
+
+
+EOD:
+some model adjustments made/ some views adjustments made/ non-complete json/ docker files/ urls/ etc 
+
