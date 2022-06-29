@@ -7,8 +7,8 @@ from django.contrib.auth.forms import UserCreationForm
 
 def signup(request):
     if request.method == "POST":
-        banana = UserCreationForm(request.POST)
-        if banana.is_valid():
+        username = UserCreationForm(request.POST)
+        if username.is_valid():
             username = request.POST.get("username")
             password = request.POST.get("password")
             user = User.objects.create_user(
@@ -19,9 +19,9 @@ def signup(request):
             login(request, user)
             return redirect("home")
     else:
-        banana = UserCreationForm()
+        username = UserCreationForm()
     context = {
-        "form": banana,
+        "form": username,
     }
     return render(request, "registration/signups.html", context)
 
@@ -32,5 +32,4 @@ def home(request):
     return render(request, template_name, context)
 
 
-# i need a landing page view
-# a home page with the sign up or log in button . 
+# home funciton needs to be changed  for JSON and React template views 

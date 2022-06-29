@@ -1,6 +1,6 @@
 from django.urls import path
 
-from finlit.views import ProfileCreateView, ProfileListView, ProfileUpdateView
+from finlit.api_views import ProfileCreateView, ProfileListView, ProfileUpdateView
 
 urlpatterns = [
     path("", ProfileListView.as_view(), name="list_finance"),
