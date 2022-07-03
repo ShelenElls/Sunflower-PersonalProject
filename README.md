@@ -1,12 +1,11 @@
 # sunflower
 
-project for interview
+- Sunflower is a passion project oriented towards total income and total debt management in conjunction with goal achievement. 
+
+- The version on GitHub is incomplete and available to view to the public. Once project is complete this version will be retired and replaced with the completed repository. 
 
 ## Getting started
 
-sunflower is currently a Python, Django, HTML5 and CSS - VM enviornment project.
-This file is currently set up with python, django, HTML5 and CSS. 
+This file is currently set up with Python, Django, HTML5 and CSS. 
 
-Sunflower will likely need to be broken into two/three segments or microservices instead of everything being under the one app it is currently. 
-
-documents in plan.md to locate where in app what needs to be done- 
+This project will aim to have a React with SCSS front end. 
