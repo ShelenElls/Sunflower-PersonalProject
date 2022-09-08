@@ -9,6 +9,20 @@ from finlit.models import Profile
 
 # Create your views here.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class ProfileListView(LoginRequiredMixin, ListView):
     model = Profile
     template_name = "finance/list.html"
